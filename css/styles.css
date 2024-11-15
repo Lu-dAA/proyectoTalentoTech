@@ -1,0 +1,35 @@
+h2{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-family: "Rubik Doodle Triangles", system-ui;
+    font-weight: 500;
+    font-style: normal;
+      
+}
+h3 {
+    font-family: "Gorditas", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+p{
+    font-family: "Gorditas", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.botones{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .botones:hover{
+    background-color: #45a049;
+  }
+  .botones:active {
+    background-color: #3e8e41;
+  }

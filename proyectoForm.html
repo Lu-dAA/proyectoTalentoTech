@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Gorditas:wght@400;700&family=Rubik+Doodle+Triangles&display=swap" rel="stylesheet">
+    <title>CoNtAcTaNoS!!1!1</title>
+</head>
+<style>
+    .head{
+        display: flex;
+        background-color: aqua;
+        justify-content: space-around;
+        width: 1200px;
+        height: 200px;
+    }
+
+    .botones{
+        display: flex;
+        float: left;
+        width: 50px;
+        height: 20px;
+        background-color: green;
+        color: aliceblue;
+        justify-content: center;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    .form{
+        display: flex;
+        background-color: rgb(167, 240, 189);
+        width: 600px;
+        height: 250px;
+        flex-direction: row;
+        margin-bottom: 5px;
+        justify-content: space-between;
+    } 
+    .abajo{
+        display: flex;
+        background-color: aqua;
+        justify-self: center;
+        width: 1340px;
+        height: 200px;
+        justify-content: center;
+    }
+    @media (max-width: 600px){
+        .head{
+            flex-direction: column;
+        
+            
+        }
+        .form{
+            flex-direction: column;
+        }
+        .botones{
+            flex-direction: column;
+        }
+        .abajo{
+            flex-direction: column;
+
+        }
+    }
+</style>    
+<body>
+    <div class="head">
+        <header><h1>CoNtAcTaNoS!!1!1</h1></header>
+        <br>
+        <a id="back" href="proyectoIndex.html" class="botones">volver</a>
+    
+    </div>
+    
+    <br>
+    <div class="form">
+        <main><section>
+        <form action="https://formspree.io/f/xgveyagz" method="POST" target="_blank">
+            <label for="firstname">Nombre:</label>
+            <input size="30" type="text" name="firstname" id="firstname">
+            <br>
+            <br>
+            <label for="lastname">Apellido:</label>
+            <input size="50" type="text" name="lastname" id="lastname">
+            <br>
+            <br>
+            <label for="">Mail:</label>
+            <input size="50" type="email" name="email" id="email">
+            <br>
+            <br>
+            <label>Comentarios:</label>
+            <textarea id="coment" name="coment" rows="6" cols="30"></textarea>
+            <br>
+            <input type="submit" value="ENVIAR">
+        </form>
+        </section></main>
+    </div>
+   
+    <footer>
+        <div class="abajo" id="redes">
+            <div class="redes"></div>
+            <div><span>Talento Tech - JS - C24225</span><br>
+                <a href="mailto:importante.lo15@gmail.com">Contáctame <br> ATT: Lu de Andrea Antonelli</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
