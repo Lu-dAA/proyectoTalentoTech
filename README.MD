@@ -19,5 +19,5 @@
 
 **Intenciones personales sobre la página**: que sea divertida de hacer y de ver, en cuanto al diseño, una vez este mejorado no se va a ver necesariamente lindo, quisiera que haya un poco de caos visual (relacionandolo a un poco a los diseños de páginas de inicios del 2000, pero más absurdo).
 
-**Instalación**: dejo el link de clonación del proyecto --> https://github.com/Lu-dAA/proyectoTec.git
+**Instalación**: dejo el link de clonación del proyecto --> https://github.com/Lu-dAA/proyectoTalentoTech.git
 
