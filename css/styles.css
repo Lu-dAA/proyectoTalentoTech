@@ -33,3 +33,8 @@ p{
   .botones:active {
     background-color: #3e8e41;
   }
+  .botones2{
+    background-color: aqua;
+    color: black;
+    margin: auto;
+  }

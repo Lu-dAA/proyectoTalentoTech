@@ -23,6 +23,10 @@
         height: 200px;
         margin: auto;
     }
+    .container-fluid{
+        display: flex;
+        background-color: rgb(214, 218, 20);
+    }
     .inicio{
         display: flex;
         background-color: rgb(64, 236, 93);
@@ -35,8 +39,8 @@
     .columna1{
         display: flex;
         background-color: aquamarine;
-        width: 150px;
-        height: 200px;
+        width: 160px;
+        height: 250px;
         margin-top: 10px;
         flex-direction: row;
         justify-content: space-around;
@@ -54,14 +58,14 @@
         display: flex;
         background-color: rgb(144, 144, 207);
         width: 1200px;
-        height: 700px;
+        height: 500px;
         justify-self: center;
         justify-content: center;
   
     }
     .cards1{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         flex-direction: row;
         justify-content: space-between;
        
@@ -75,8 +79,8 @@
     .card1{
         display: flex;
         background-color: rgb(190, 207, 142);
-        margin-right: 65px;
-        margin-top: 40px;
+        margin-right: auto;
+        margin-top: 35px;
         width: 300px;
         height: 150px;
         
@@ -87,8 +91,8 @@
         background-color: rgb(190, 207, 142);
         width: 300px;
         height: 150px;
-        margin-top: 60px;
-        margin-right: 30px;
+        margin-top: 30px;
+        margin-right: 70px;
    
     }
     .reseñas{
@@ -137,10 +141,10 @@
             
         }
         .columna1{
-            flex-direction: center;
+            flex-direction: column;
         }
         .columna2{
-            flex-direction: center;
+            flex-direction: column;
         }
         .productos{
             flex-direction: column;
@@ -201,26 +205,35 @@
             <div class="columna1">
                 <nav>
                     <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
-                        <button type="button" class="botones"><a id="inicio" href="index.html">Refresh</a></button>
-                        <button type="button" class="botones"><a id="productos" href="index.html#product">Mira lo que tenemos</a></button>
-                        <button type="button" class="botones"><a id="reseñas" href="index.html#reseña">Opiniones</a></button>
-                        <button type="button" class="botones"><a id="abajo" href="index.html#redes">mi mAil</a></button>
-                        <button type="button" class="botones"><a id="contactanos" href="contacto.html">HAblame</a></button>
+                        <a id="inicio" href="index.html">
+                            <button type="button" class="botones">Refresh</button>
+                        </a>
+                        <br>
+                        
+                        <a id="productos" href="index.html#product">
+                            <button type="button" class="botones">Mira lo que tenemos</button>
+                        </a>
+                        <br>
+                        
+                        <a id="reseñas" href="index.html#reseña">
+                            <button type="button" class="botones">Opiniones</button>
+                        </a>
+                        <br>
+                        
+                        <a id="abajo" href="index.html#redes">
+                            <button type="button" class="botones">mi mAil</button>
+                        </a>
+                        <br>
+                        
+                        <a id="contactanos" href="contacto.html">
+                        <button type="button" class="botones">HAblame</button>
+                        </a>
                     </div>
-                    <br>
-                    <br>
-                    <button class="botones"><a id="productos" href="index.html#product">Mira lo que tenemos</a></button>
-                    <br>
-                    <br>
-                    <button class="botones"><a id="reseñas" href="index.html#reseña">Opiniones</a></button>
-                    <br>
-                    <br>
-                    <button class="botones"><a id="abajo" href="index.html#redes">mi mAil</a></button>
-                    <br>
-                    <br>
-                    <button class="botones"><a id="contactanos" href="contacto.html">HAblame</a></button>
+                
+                    
                 </nav>
             </div>
+            
             <div class="columna2"><h2 class="titulo-h2">hola amigxss!1!!1.</h2><br><p>El club comienza gracias a mi.<br><br><br><br> somos tres amigos que disgutados de comer zapallitos<br><br><br><br>empezamos a juntarnos a hacer dibujos profundos<br><br><br><br>gracias a la nueva tecnologia te lo puedo vender<br><br><br><br>pero mirar es gratis...</p></div>
         </div>
     </header>
@@ -235,21 +248,21 @@
                         <h3>Rueda</h3>
                         <p>Apreciala que <br>se esta yendo<br><br>27$</p>
                         
-                        <button class="botones">conprame dale</button>
+                        <button class="botones2">conprame dale</button>
                     </div>
                     <div class="card1">
                         <img src="imagenes/perrito.png" class="card-img" alt="producto 2">
                         <h3>mi PErro</h3>
                         <p>es mi perrito<br><br>999$</p>
                         
-                        <button class="botones">conprame dale</button>
+                        <button class="botones2">conprame dale</button>
                     </div>
                     <div class="card1">
                         <img src="imagenes/llave.png" class="card-img" alt="producto 3">
                         <h3>La llave de mi casa</h3>
                         <p>NO, PARÁ NO USES TU IMPRESORA 3D<br><br>1,67$</p>
                         
-                        <button class="botones">conprame dale</button>
+                        <button class="botones2">conprame dale</button>
                     </div>
                 </div>
                 <div class="cards2">      
@@ -258,7 +271,7 @@
                         <h3>yo</h3>
                         <p>Soy yo, me queres?<br><br>11111$</p>
                         
-                        <button class="botones">conprame dale</button>
+                        <button class="botones2">conprame dale</button>
                     </div>
                  
                     <div class="card2">
@@ -266,14 +279,14 @@
                         <h3>Manzana</h3>
                         <p>dame 3 litros<br><br>3$</p>
                         
-                        <button class="botones">conprame dale</button>
+                        <button class="botones2">conprame dale</button>
                     </div>
                     <div class="card2">
                         <img src="imagenes/Roberta.png" class="card-img" alt="producto 6">
                         <h3>Pautau</h3>
                         <p>en realidad el de arriba no es mi perro<br>2,3323,4$</p>
                         
-                        <button class="botones">conprame dale</button>
+                        <button class="botones2">conprame dale</button>
                     </div>
                 </div>    
             </section>
