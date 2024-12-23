@@ -49,3 +49,7 @@ p{
     color: black;
     margin: auto;
   }
+.card:hover{
+  transform: translateY(-10px);
+  box-shadow: 1.25px 1.25px 10px rgba(0, 0, 0, 0.5);
+}  

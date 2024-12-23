@@ -101,63 +101,17 @@
         height: 200px;
         justify-content: space-around;
     }
-    @media (max-width: 600px){
-        .cabeza{
-            flex-direction: column;
-        }
-        .inicio{
-            flex-direction: column;
-            
-        }
-        .columna1{
-            flex-direction: column;
-        }
-        .columna2{
-            flex-direction: column;
-        }
-        .productos{
-            flex-direction: column;
-    
-        }
-        .cards1{
-            flex-direction: column;
-        
-        }
-        .cards2{
-            flex-direction: column;
-        }
-        .card1{
-            flex-direction: column;
-        
-        }
-        .card2{
-            flex-direction: column;
-    
-        }
-        .reseñas{
-          grid-column: auto;
-        }
-
-        .re1{
-            grid-column: auto;
-
-        }
-        .re2{
-            grid-column: auto;
-
-        }
-        .re3{
-            grid-column: auto;
-        }
-    
-        .abajo{
-            flex-direction: column;
-            
-        }
+    @media (min-width: 400px)and(max-width:600px){
+       body{
+        font-size: 16px;
+        justify-content: center;
+        justify-items: center;
+       }
     }    
 </style>
 
 <body>
+    <div class="cuerpo-completo">
     <header>
         <div class="cabeza">
             <nav class="navbar bg-body-tertiary">
@@ -219,7 +173,7 @@
                 <h2>TENGO ESTO y esto OTRO, elegí vos</h2>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                      <div class="card">
+                      <div class="card" id="card1">
                         <img src="imagenes/rueda.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">ruedA</h5>
@@ -229,7 +183,7 @@
                       </div>
                     </div>
                     <div class="col">
-                      <div class="card">
+                      <div class="card" id="card2">
                         <img src="imagenes/llave.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">la LLave de mi CASA</h5>
@@ -239,7 +193,7 @@
                       </div>
                     </div>
                     <div class="col">
-                        <div class="card">
+                        <div class="card" id="card3">
                            <img src="imagenes/perrito.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">mi PErro</h5>
@@ -249,7 +203,7 @@
                         </div>
                       </div>
                     <div class="col">
-                      <div class="card">
+                      <div class="card" id="card4">
                          <img src="imagenes/yo.png" class="card-img-top" alt="...">
                            <div class="card-body">
                              <h5 class="card-title">yo</h5>
@@ -259,7 +213,7 @@
                       </div>
                     </div>
                     <div class="col">
-                        <div class="card">
+                        <div class="card" id="card5">
                           <img src="imagenes/manzana.png" class="card-img-top" alt="...">
                           <div class="card-body">
                              <h5 class="card-title">Manzana</h5>
@@ -269,7 +223,7 @@
                         </div>
                     </div>
                     <div class="col">
-                       <div class="card">
+                       <div class="card" id="card6">
                          <img src="imagenes/Roberta.png" class="card-img-top" alt="...">
                          <div class="card-body">
                                 <h5 class="card-title">Pautau</h5>
@@ -279,7 +233,7 @@
                         </div>
                     </div>    
 
-                  </div>
+                </div>
             </section>
         </div>
 
@@ -317,5 +271,6 @@
     </footer>
     <script src="javascript/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</div>
 </body>
 </html>

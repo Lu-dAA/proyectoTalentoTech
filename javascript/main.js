@@ -9,9 +9,11 @@ function irArriba(){
 }*/
 document.addEventListener("DOMContentLoaded", () => 
     {
-    const productos = document.querySelector("#productos");
-
-    let currentPage = 1;
-    const limit = 20;
-    let totalProductos = 0;
+    const productos = document.getElementById("productos");
+    const cards = ['rueda', 'llave', 'perro', "yo", 'manzana', 'pautau'];
+    
+    for (let i=0; i < cards; i++){
+    
+    }
+    console.log("productos disponibles:", cards);
     });
