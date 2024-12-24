@@ -17,3 +17,20 @@ document.addEventListener("DOMContentLoaded", () =>
     }
     console.log("productos disponibles:", cards);
     });
+document.addEventListener("DOMContentLoaded",()=>
+{
+var prodCont=document.querySelector("#prod-cont");
+
+fetch("https://dummyjson.com/products?limit=6")
+.then(Response=>Response.json())
+.then((data)=>{
+  var producto = data.products;
+
+  prodCont.innerHTML = "";
+  producto.forEach((product) => 
+    {
+    
+  })
+})
+
+});
