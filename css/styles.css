@@ -20,16 +20,12 @@ p{
     font-weight: 400;
     font-style: normal;
 }
-.ir-arriba{
-    display:none;
-    background-repeat:no-repeat;
-    font-size:20px;
-    color:black;
-    cursor:pointer;
-    position:fixed;
-    bottom:10px;
-    right:10px;
-    z-index: 2;
+#irArriba{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+
 }
 .botones{
     background-color: #4CAF50;
