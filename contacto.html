@@ -12,17 +12,28 @@
 <style>
     .head{
         display: flex;
-        background-color: aqua;
+        background: none;
         justify-content: space-around;
         width: 1200px;
         height: 200px;
     }
-
+    .footer{
+  position: center;
+  width: 1238px;
+  background-image: url(imagenes/pata.png);
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    }
     .botones{
         display: flex;
         float: left;
-        width: 50px;
-        height: 20px;
+        font-size: 99%;
+        width: 60px;
+        height: 30px;
         background-color: green;
         color: aliceblue;
         justify-content: center;
@@ -32,9 +43,9 @@
 
     .form{
         display: flex;
-        background-color: rgb(167, 240, 189);
+        background-color: whitesmoke;
         width: 600px;
-        height: 250px;
+        height: 269px;
         flex-direction: row;
         margin-bottom: 5px;
         justify-content: space-between;
@@ -65,7 +76,7 @@
         }
     }
 </style>    
-<body>
+<body background="imagenes/produs.png">
     <div class="head">
         <header><h1>CoNtAcTaNoS!!1!1</h1></header>
         <br>
@@ -95,20 +106,33 @@
             <textarea id="coment" name="coment" rows="6" cols="30" placeholder="escriba su mensaje aquí" required></textarea>
             <br>
             <a input type="submit" id=send><button class="botones"> ENVIAR </button></a>
+            <br>
 
             
         </form>
         </section></main>
     </div>
    
-    <footer>
-        <div class="abajo" id="redes">
-            <div class="redes"></div>
-            <div><span>Talento Tech - JS - C24225</span><br>
-                <a href="mailto:importante.lo15@gmail.com">Contáctame <br> ATT: Lu de Andrea Antonelli</a>
-            </div>
-        </div>
+    <footer class="footer" id="pie">
+        <ul class="social">
+            <li class="soc-elem">
+                <a href="" class="icon">
+                    <ion-icon name="rocket"></ion-icon>
+                </a>
+            </li>
+            <li class="soc-elem">
+                <a href="" class="icon"><ion-icon name="planet"></ion-icon></a>
+            </li>
+            <li class="soc-elem">
+                <a href="" class="icon"><ion-icon name="body"></ion-icon></a>
+            </li>
+        </ul>
+        <p class="info">creado por: Lu</p>
+        <p class="text">@2024 | Todos derechos, ojo que reservo</p>
+            
+        
     </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="javascript/main.js"></script>
 </body>
 </html>

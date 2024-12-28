@@ -15,30 +15,41 @@
     <title>No me gusta el zapallito</title>
 </head>
 <style>
+    .footer{
+  position: center;
+  width: 1238px;
+  background-image: url(imagenes/pata.png);
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
     .cabeza{
         display: flex;
         justify-content: center;
-        background-color: aqua;
+        background-image: url(imagenes/cabezona.png);
         width: 1200px;
         height: 200px;
         margin: auto;
     }
     .container-fluid{
         display: flex;
-        background-color: rgb(214, 218, 20);
+        background-color: rgb(222, 223, 197);
     }
     .inicio{
         display: flex;
-        background-color: rgb(64, 236, 93);
+        background-image: url(imagenes/triangulomarron.png);
         width: 1300px;
-        height: 450px;
+        height: 500px;
         justify-self: center;
         justify-content: space-around;
         
     }
     .columna1{
         display: flex;
-        background-color: aquamarine;
+        background-image: url(imagenes/pedo.png);
         width: 160px;
         height: 250px;
         margin-top: 10px;
@@ -47,16 +58,16 @@
     }
     .columna2{
         display: flex;
-        background-color: aquamarine;
+        background-image: url(imagenes/fondo\ esplicando.png);
         width: 1000px;
-        height: 400px;
+        height: 450px;
         margin-top: 40px;
         flex-direction: row;
         justify-content: space-around;
     }
     .productos{
         display: flex;
-        background-color: rgb(144, 144, 207);
+        background-image: url(imagenes/produs.png);
         width: 1000px;
         height: 1200px;
         justify-self: center;
@@ -121,61 +132,48 @@
     }
 
     @media (max-width: 768px) {
-        body {
-            font-size: 14px;
-        }
-        .cabeza h1 {
-            font-size: 1.5rem;
-        }
-        .columna1, .columna2 {
-            width: 100%;
-        }
-        .productos {
-            flex-direction: column;
-            width: 100%;
-            padding: 20px 0;
-        }
-        .reseñas {
-            width: 100%;
-            padding: 10px;
-        }
-    }
+  .inicio {
+    flex-direction: column;
+  }
 
-    @media (max-width: 480px) {
-        .cabeza {
-            height: 150px;
-        }
-        .inicio {
-            flex-direction: column;
-            padding: 10px;
-        }
-        .columna1 {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        .columna2 {
-            width: 100%;
-        }
-        .productos {
-            padding: 10px;
-        }
-        .reseñas {
-            width: 100%;
-            padding: 5px;
-        }
-        .abajo {
-            flex-direction: column;
-            padding: 20px;
-        }
-    }  
+  .columna1, .columna2 {
+    width: 100%;
+  }
+
+  .btn-group-vertical {
+    flex-direction: column;
+  }
+
+  .productos .row {
+    flex-direction: column;
+  }
+
+  .reseñas {
+    padding: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .botones {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .productos .row {
+    flex-direction: column;
+  }
+
+  .reseñas {
+    padding: 5px;
+  }
+}
 </style>
 
 <body>
     <div class="cuerpo-completo">
     <header>
         <div class="cabeza" id="principio">
-            <nav class="navbar bg-body-tertiary">
-                <div class="container-fluid">
+            <nav class="navbar bg-body-tertiary" id="contbusca">
+                <div class="container-fluid" >
                   <a class="navbar-brand"><h1>Club de   NO   zapallitos</h1></a>
                   <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -204,8 +202,8 @@
                         </a>
                         <br>
                         
-                        <a id="abajo" href="index.html#redes">
-                            <button type="button" class="botones">mi mAil</button>
+                        <a id="abajo" href="index.html#pie">
+                            <button type="button" class="botones">horizonte</button>
                         </a>
                         <br>
                         
@@ -258,7 +256,7 @@
         </div>
     </main>
     
-    <footer class="footer">
+    <footer class="footer" id="pie">
         <ul class="social">
             <li class="soc-elem">
                 <a href="" class="icon">

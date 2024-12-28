@@ -49,17 +49,7 @@ p{
   transform: translateY(-10px);
   box-shadow: 1.25px 1.25px 10px rgba(0, 0, 0, 0.5);
 }  
-.footer{
-  position: relative;
-  width: 100%;
-  background-color: #3e8e41;
-  min-height: 100px;
-  padding: 20px 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+
 .social{
   display:flex;
   justify-content: center;
@@ -94,4 +84,7 @@ p{
   margin-top: 15px;
   margin-bottom: 10px;
   font-size: 20px;
+}
+#contbusca{
+  background-color: #88ddab;
 }
