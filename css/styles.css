@@ -88,3 +88,15 @@ p{
 #contbusca{
   background-color: #88ddab;
 }
+
+#conpra{
+  color: rgb(255, 145, 0);
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 40px;
+  transition: o.5s;
+}
+
+#conpra:hover{
+  transform: translateY(-10px);
+}

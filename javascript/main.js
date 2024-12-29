@@ -1,3 +1,4 @@
+
 const infoProductos = [
   {
     imag: "imagenes/rueda.png",
@@ -75,3 +76,4 @@ function agregarAlCarrito(producto){
   localStorage.setItem("cart", JSON.stringify(cart));
   alert(`${producto.tit} te lo llevas a tu casa que no lo aguanto masss`);
 }
+

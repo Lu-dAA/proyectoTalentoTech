@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Gorditas:wght@400;700&family=Rubik+Doodle+Triangles&display=swap" rel="stylesheet">
+</head>
+<style>
+.footer{
+    position: center;
+    width: 1238px;
+    background-image: url(imagenes/pata.png);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      }
+</style>
+<body>
+    <header class="cabeza">
+        <h1>A tu casa</h1>
+    </header>
+    <main>
+        <div class="container mt-5">
+            <h2 class="mb-4">Carrito de COSAS</h2>
+    
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody id="carrito-items">
+                    
+                </tbody>
+            </table>
+    
+            <div class="text-end mb-3">
+                <h4>Total: $<span id="total">0</span></h4>
+            </div>
+    
+            <div class="d-flex justify-content-between">
+                <a href="index.html#product"><button id="limpiar-carrito" class="btn btn-danger">Seguí chusmeando</button></a>
+                <button id="finalizar-compra" class="btn btn-success">CONPRA DALE</button>
+            </div>
+        </div>
+    
+    
+    
+    </main>
+    <footer class="footer" id="pie">
+        <ul class="social">
+            <li class="soc-elem">
+                <a href="" class="icon">
+                    <ion-icon name="rocket"></ion-icon>
+                </a>
+            </li>
+            <li class="soc-elem">
+                <a href="" class="icon"><ion-icon name="planet"></ion-icon></a>
+            </li>
+            <li class="soc-elem">
+                <a href="" class="icon"><ion-icon name="body"></ion-icon></a>
+            </li>
+        </ul>
+        <p class="info">creado por: Lu</p>
+        <p class="text">© 2024 | Todos derechos, ojo que reservo</p>
+            
+        
+    </footer>
+    <script src="javascript/fun-carrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
