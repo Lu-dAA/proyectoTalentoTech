@@ -26,12 +26,6 @@ document.addEventListener("DOMContentLoaded", () =>
         cantidadCelda.textContent = 1;
         row.appendChild(cantidadCelda);
 
-        // Subtotal
-        const subtotal = item.price; 
-        const subtotalCelda = document.createElement('td');
-        subtotalCelda.textContent = `$${subtotal}`;
-        row.appendChild(subtotalCelda);
-
         // Agregar fila a la tabla
         carritoTableBody.appendChild(row);
 

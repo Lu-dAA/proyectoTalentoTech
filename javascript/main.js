@@ -4,37 +4,37 @@ const infoProductos = [
     imag: "imagenes/rueda.png",
     tit: "ruedA",
     descrip: "Apreciala que se esta yendo",
-    pre: "27$",
+    pre: "$27",
   },
   {
     imag: "imagenes/llave.png",
     tit: "la LLave de mi CASA",
     descrip: "NO, PARÁ NO USES TU IMPRESORA 3D",
-    pre: "1,67$",
+    pre: "$1,67",
   },
   {
     imag: "imagenes/perrito.png",
     tit: "mi PErro",
     descrip: "es mi perrito",
-    pre: "999$",
+    pre: "$999",
   },
   {
     imag: "imagenes/yo.png",
     tit: "yo",
     descrip: "Soy yo, me queres?",
-    pre: "1111$",
+    pre: "$1111",
   },
   {
     imag: "imagenes/manzana.png",
     tit: "Manzana",
     descrip: "dame 3 litros",
-    pre: "3$",
+    pre: "$3",
   },
   {
     imag: "imagenes/Roberta.png",
     tit: "Pautau",
     descrip: "en realidad el de arriba no es mi perro",
-    pre: "2,3323,4$",
+    pre: "$2,3323,4",
   },
 ];
 
@@ -52,7 +52,7 @@ function mostrarProductos() {
           <img src="${producto.imag}" class="card-img-top" alt="${producto.tit}">
           <div class="card-body">
             <h5 class="card-title">${producto.tit}</h5>
-            <p class="card-text">${producto.descrip}</p><br><b>${producto.pre}</b>
+            <p class="card-text">${producto.descrip}</p><br><b>$${producto.pre}</b>
             <button class="botones2">conprame dale</button>
           </div>
         </div>
